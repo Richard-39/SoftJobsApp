@@ -13,7 +13,7 @@ export default function RegistroForm() {
   };
 
   const registrarUsuario = async () => {
-    const urlServer = "http://localhost:3000";
+    const urlServer = "https://softjobsapi.onrender.com";
     const endpoint = "/usuarios";
     try {
       await axios.post(urlServer + endpoint, usuario);
